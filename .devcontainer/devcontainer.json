@@ -1,0 +1,22 @@
+{
+    "name": "corporate",
+    "dockerComposeFile": "compose.yaml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "christian-kohler.path-intellisense",
+        "christian-kohler.npm-intellisense",
+        "ms-vscode.vscode-typescript-next",
+        "eamodio.gitlens"
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+        }
+    },
+    "forwardPorts": [3113],
+    "postCreateCommand": ""
+}
